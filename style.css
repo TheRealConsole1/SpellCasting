@@ -13,6 +13,7 @@
 @media (max-width: 768px) {
     .title-title {
         font-size: 3rem;
-        top: 60px
+        top: 40px
+        left: 35%
     }
 }
