@@ -1,20 +1,47 @@
-.title{
+.header {
     position: relative;
-    text-align: center
-}
-.title-title{
-    color: red;
-    font-size: 100px;
-    position: absolute;
-    top: 50px;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
 }
 
-@media (max-width: 768px) {
-    .title-title {
-        font-size: 100px;
+.header-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.hero {
+    position: relative;
+    width: 100%;
+
+.header-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+}
+.title {
+    position: absolute;
+    top:70%;
+    left: 80%;
+    color: red;
+    font-size: 10rem;
+}
+@media (max-width: 900px) {
+        .title {
+        font-size: 4rem;
         top: 10%;
-        right: 20%;
+        left:20px
+    }
+}
+@media (min-width: 600px) {
+    .title {
+        font-size: 6rem;
+        top: 50px;
+        left:21%
+    }
+}
+@media (min-width: 1024px) {
+    .title {
+        font-size: 15rem;
+        left: 150px
     }
 }
