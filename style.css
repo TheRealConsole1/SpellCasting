@@ -9,7 +9,6 @@
     top: 50px;
     left: 50%;
     transform: translateX(-50%);
-    background: red;
 }
 
 @media (max-width: 768px) {
