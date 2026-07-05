@@ -13,8 +13,8 @@
 
 @media (max-width: 768px) {
     .title-title {
-        font-size: 3rem;
-        top: 50%;
+        font-size: 2rem;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
