@@ -3,17 +3,19 @@
     text-align: center;
 }
 .title-title{
-    color:red;
+    color: red;
     font-size: 125px;
-    position:absolute;
-    top: 20%;
+    position: absolute;
+    top: 50%;
     left: 50%;
-    transform:translate(-50%, -50%)
-    
+    transform: translate(-50%, -50%);
+}
+
 @media (max-width: 768px) {
     .title-title {
         font-size: 3rem;
-        top: 40px
-        left: 35%
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
